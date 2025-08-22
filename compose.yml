@@ -3,8 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "8e"
-      LANGUAGE: "Japanese"
+      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_Japanese_x64.iso?t=473ad3e6-9605-4091-9696-f60e2c365aee&P1=1755953752&P2=601&P3=2&P4=QcyfJQ7qeRDSgwhuC7oDFBMTiVqQy%2b1LVHVng2XA9xvLQ%2b9gyC4chEEafjnKaSns6kWbUpEFSc%2b087SiYh2Pv%2fWcbGVn8PswsfvnivQnEF9nUV5f%2bQdpWIXviqzdGwoAC64ZkkoqnzMmmQWsejYvKHC0KThQURjaBuRYXyoNULQaafYOD%2fWi2KFtDjZvynuTOvd%2f11LCyMDKimBaQPay1okK2TODIiHPZkBtXKBzdCEzoqWDJeM9gbD4vcfTUt7Qk2R7R%2bvqgkWixUkkDZI9pjADfRx6ia7c5XOjmGEPbKeSClKIZOjmtWZ3NBWGd4PTvjfqX7sQpQt314x1y9QmFw%3d%3d"
     devices:
       - /dev/kvm
       - /dev/net/tun
