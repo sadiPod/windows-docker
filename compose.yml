@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_Japanese_x64.iso?t=473ad3e6-9605-4091-9696-f60e2c365aee&P1=1755953752&P2=601&P3=2&P4=QcyfJQ7qeRDSgwhuC7oDFBMTiVqQy%2b1LVHVng2XA9xvLQ%2b9gyC4chEEafjnKaSns6kWbUpEFSc%2b087SiYh2Pv%2fWcbGVn8PswsfvnivQnEF9nUV5f%2bQdpWIXviqzdGwoAC64ZkkoqnzMmmQWsejYvKHC0KThQURjaBuRYXyoNULQaafYOD%2fWi2KFtDjZvynuTOvd%2f11LCyMDKimBaQPay1okK2TODIiHPZkBtXKBzdCEzoqWDJeM9gbD4vcfTUt7Qk2R7R%2bvqgkWixUkkDZI9pjADfRx6ia7c5XOjmGEPbKeSClKIZOjmtWZ3NBWGd4PTvjfqX7sQpQt314x1y9QmFw%3d%3d"
+      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_Japanese_x64.iso?t=cdc7b090-f60e-4b5d-80c8-10186a01f8b4&P1=1756986075&P2=601&P3=2&P4=cvCFMdLBz%2fNtmWcsHn2vZBaSezcpTUHFkKT29SUFq7aJ%2bkhLqLE6GGQ84dNEBXAYvQJLgyzyKOqwkzzsfiWpXxXoGqIsoxjxpRhBNjSWaILFkeUbWSUJECyZndQzcHtMmyA5YX76R5q9r7yUivsJk7%2bomarMThhsY%2f1LqTdKVChkQA7lrddTNp2rlYDx0Tof338Ihe%2bV19cWtqmcXobUe5phpd2%2fl0wVswl9rPQCqbFH4ajt3sBj2AJZUHrHnGEZGyyqYYH7rJMxhEU5qtMMzKkzpg12C3WRu9nryOJj0QlBcvsToQHteYcthOoqayyihPl2M0bWf%2bbGMuMHWZp%2fbg%3d%3d"
     devices:
       - /dev/kvm
       - /dev/net/tun
