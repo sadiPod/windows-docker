@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_Japanese_x64.iso?t=cdc7b090-f60e-4b5d-80c8-10186a01f8b4&P1=1756986075&P2=601&P3=2&P4=cvCFMdLBz%2fNtmWcsHn2vZBaSezcpTUHFkKT29SUFq7aJ%2bkhLqLE6GGQ84dNEBXAYvQJLgyzyKOqwkzzsfiWpXxXoGqIsoxjxpRhBNjSWaILFkeUbWSUJECyZndQzcHtMmyA5YX76R5q9r7yUivsJk7%2bomarMThhsY%2f1LqTdKVChkQA7lrddTNp2rlYDx0Tof338Ihe%2bV19cWtqmcXobUe5phpd2%2fl0wVswl9rPQCqbFH4ajt3sBj2AJZUHrHnGEZGyyqYYH7rJMxhEU5qtMMzKkzpg12C3WRu9nryOJj0QlBcvsToQHteYcthOoqayyihPl2M0bWf%2bbGMuMHWZp%2fbg%3d%3d"
+      VERSION: "https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_aug_2025_x64_dvd_65bb5415.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
