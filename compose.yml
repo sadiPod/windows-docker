@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://dl.bobpony.com/windows/11/en-us_windows_11_24h2_x64.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
