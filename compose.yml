@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_English_x64.iso?t=8aa58221-8e25-4eb6-9d97-a5061fd2ddd4&P1=1761656564&P2=601&P3=2&P4=XTLhMtbrknr9%2bWeXw9Dvb%2foTyw7olKdBCCGhUBOSGURVygG1Jer0kcvdLVH1C772rubr7ePkjQkZvAwCZOS73AQC7VyjQfhrRTmFqDf7Brxmu7WGqATlaoRc%2bKis5TEzdwhJaEKLAlK3jFaBH689jt80Uf5dnvOCIV0bra6%2fmXNqsAyFxPjN7cJc5j19WB0mD3i%2bIizy5nmveOUE4jYVaINohHThWCaKJUBYCXLJMY1mCfwiqtjkZgYaHdNcEVMI6Rg%2bGSCUUbSW7HZKhTT%2fb%2blMQaWr94VecN0pbVtdl%2b0sp4NRY%2fnF9l9jkhzQhXgc%2fwGhwS8l%2bnb1ceg1rhVkyA%3d%3d"
+      VERSION: "https://dl.bobpony.com/windows/10/archive/1903/en_windows_10_business_editions_version_1903_updated_july_2020_x64_dvd_7c95f7e0.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
