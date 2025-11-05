@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.os.click/OS/NT10/Win11_22000/2416_sep_2023/en-us_windows_11_consumer_editions_version_21h2_updated_sep_2023_x64_dvd_0f839f31.iso?md5=LJaJdGlUE08qJNZ43S6wMw&expires=1762431850"
+      VERSION: "https://dl.bobpony.com/windows/beta/11/cobalt/22000/2000.51.210617-2050.CO_RELEASE_SVC_PROD2_CLIENTMULTI_X64FRE_EN-US.ISO"
     devices:
       - /dev/kvm
       - /dev/net/tun
