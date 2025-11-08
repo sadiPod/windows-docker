@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/beta/11/cobalt/22000/2000.51.210617-2050.CO_RELEASE_SVC_PROD2_CLIENTMULTI_X64FRE_EN-US.ISO"
+      VERSION: "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
