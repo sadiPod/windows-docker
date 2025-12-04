@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/10/archive/1507/en_windows_10_multiple_editions_x64_dvd_6846432.iso"
+      VERSION: "https://dl.bobpony.com/windows/11/en-us_windows_11_24h2_x64.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
