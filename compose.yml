@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/11/en-us_windows_11_24h2_x64.iso"
+      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win8.1_English_x64.iso?t=139b8605-0b20-4fe5-819a-8901acf0149c&P1=1767609334&P2=601&P3=2&P4=OmGUTaXL0FDnPdjYkZz5uMt7SY267gPW0aqv0im696NQ8KIIZmxB0HDSOzcLH9Fb%2fxHNUdgZPyUEUiQ7%2fTYRUPOzcyrVnWV%2bMnH8fr7KAfrpC3k2D5uql883ewWMUD3Nv9SDZO9r9MLgUzY9dRuVdc%2bXkTZ5TbpM6wKJr5ousYBbQkTB%2fVGgqW1NlmIHyD72Q6U73fITn6YRLFsk7sJjPorXCL8JiOK3MEFk49LDzSGepe%2bcu4RUDju97udd4TnYr7T3ynMDcIzqU7SnGQ5bzumzq2kEPfe82FUeraUT0ehrAScvM%2fdO9D1Cdq7mP6DSWqevaGBgYVWoCx2yofn9tQ%3d%3d"
     devices:
       - /dev/kvm
       - /dev/net/tun
