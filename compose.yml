@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/10/archive/1909/en_windows_10_business_editions_version_1909_updated_july_2020_x64_dvd_1ca84e91.iso"
+      VERSION: "https://archive.org/download/win-8.1-english-x-64-x-86/Win8.1_English_x64.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
