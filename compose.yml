@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/win-8.1-english-x-64-x-86/Win8.1_English_x64.iso"
+      VERSION: "https://archive.isdn.network/windows/en_windows_8.1_with_update_x64_dvd_6051480.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
