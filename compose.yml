@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.isdn.network/windows/en_windows_8.1_with_update_x64_dvd_6051480.iso"
+      VERSION: "https://dl.os.click/OS/NT6.3/9600/17483/client/en_windows_8.1_with_update_x64_dvd_6051480.iso?md5=Urt_bgm7lfVZf_V3duLMhA&expires=1772424922"
     devices:
       - /dev/kvm
       - /dev/net/tun
