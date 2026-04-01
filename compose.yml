@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/windows-10-1507-home-and-pro/Win10_EnglishUS_x64.iso"
+      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=0b21ccae-7144-40e2-a9c3-4314d71c6f34&P1=1775115978&P2=601&P3=2&P4=f2mRHX%2beto7xUAcO2KsdbG%2bDsQSnRsUPgCcOUDCr8hLnG0QdVytwzx5FoO%2bHLwsP7JiV1K7TZyZT73CzpF920C1Ng64F4iOTDZid2a5GpcTAVjvEwG3E1MI0vyQqf6XjQnJVJz2CP8VQY%2fIFiTcGQWToOrpnQtIHfjZikM4lG66OTrl8zq6N2XB91aKIWWaoSOFixhZA5e6sPdDNWyrLJP3QGwumrNy6ZLzItYxcVOkOUjENUNTF4YLzEuopxqrqfAL6whZt7mS8fSZXslK5ks%2fSJCvvFFrRcbipXKteHM6lMSjk8jYoYVenhElqwNjiDKfoehyHUW5wJk9n49k02g%3d%3d"
     devices:
       - /dev/kvm
       - /dev/net/tun
