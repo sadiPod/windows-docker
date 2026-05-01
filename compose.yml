@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/Win10_1809_English_x64/Win10_1809_English_x64.iso"
+      VERSION: "https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_11_business_editions_version_22h2_updated_nov_2022_x64_dvd_7ed4b518.iso?t=284c3a57-17d2-42ca-8b29-c33e7a3b2d96&P1=1777632643&P2=601&P3=2&P4=RuyDirf4Cs6CdmCJmKXxjDSmRl9PTwtqfznkEXIcA9EuMyMOGCvuaYO0NdLPOdBHvb8f3SIhusY6Ni8hKYKXPp2fi9aPNCZV5g4I98DNC49FwF5JAGjTt5PdFQRYKBxTMN%2B3xqOi3iJwf5YMhcJs7FfmQ3OYi4gsrBRriRq3XUYBrRR4GRm0V80ObVaQIpJWo4EZj679xRW2RLGcmJNdIHdxr7yq0cKaxctAA8g4vwIlvuRqkkJR%2FL3giqI0cUNVoZqYgLidKPVjE07rLd%2BYcApK7LQbvFPZYCh9lsrq4gduBSfrSADVd0y%2FpJ3fZUsb267Yj%2F4Rh0tOH1z4cXSxCw%3D%3D&su=1"
     devices:
       - /dev/kvm
       - /dev/net/tun
